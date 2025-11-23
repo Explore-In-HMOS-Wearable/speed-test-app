@@ -3,17 +3,17 @@ import { DataUrl, Payload, Server } from '../interfaces/SpeedTestServiceInterfac
 
 export class SpeedTestService {
   private servers: Array<Server> = [
-    { name: 'HttpBin', url: 'https://httpbin.org' },
-    { name: 'Example', url: 'https://example.com' },
-    { name: 'Example 2', url: 'https://example.com' }
+    { name: 'HttpBin', url: '...' }, // Add HttpBin URL
+    { name: 'Postman Echo', url: '...' }, // Add Postman Echo URL
+    { name: 'JSONPlaceholder', url: '...' } // Add JSON placeholder URL
   ];
   private selectedServer: Server | null = null;
   // Image URLs with different sizes for download testing
   private downloadTestUrls: Array<DataUrl> = [
-    { url: 'https://picsum.photos/seed/g/1000/1000.jpg', approximateSize: 1000 * 1000 * 3 }, // ~3MB (1000x1000 pixels)
-    { url: 'https://picsum.photos/seed/f/2000/2000.jpg', approximateSize: 2000 * 2000 * 3 }, // ~12MB (2000x2000 pixels)
-    { url: 'https://picsum.photos/seed/e/3000/3000.jpg', approximateSize: 3000 * 3000 * 3 }, // ~27MB (3000x3000 pixels)
-    { url: 'https://picsum.photos/seed/a/4000/4000.jpg', approximateSize: 4000 * 4000 * 3 },// ~48MB (4000x4000 pixels)
+    { url: '...', approximateSize: 1000 * 1000 * 3 }, // Add relevant download URLs. ~3MB (1000x1000 pixels)
+    { url: '...', approximateSize: 2000 * 2000 * 3 }, // Add relevant download URLs. ~12MB (2000x2000 pixels)
+    { url: '...', approximateSize: 3000 * 3000 * 3 }, // Add relevant download URLs. ~27MB (3000x3000 pixels)
+    { url: '...', approximateSize: 4000 * 4000 * 3 }, // Add relevant download URLs. ~48MB (4000x4000 pixels)
   ];
   // Add properties to track current speeds for real-time updates
   private currentDownloadSpeed: number = 0;
