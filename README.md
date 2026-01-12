@@ -24,7 +24,7 @@ intuitive interface.
 - **Languages**: ArkTS, ArkUI
 - **Frameworks**: HarmonyOS SDK 5.0.2(14)
 - **Tools**: DevEco Studio Vers 5.1.0.820
-- **Libraries**: 
+- **Libraries**:
 - `@kit.NetworkKit` for network operations
 - `@kit.ArkUI` for modern UI components
 - `@kit.PerformanceAnalysisKit` for logging and analysis

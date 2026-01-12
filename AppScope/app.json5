@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.speedtest",
+    "bundleName": "com.hmosdemos.wearable.speed_test_app",
     "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",
